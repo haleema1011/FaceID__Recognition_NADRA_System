@@ -18,13 +18,6 @@ This project implements a **Face ID system** capable of retrieving a person's CN
 - LFW dataset downloaded from [Kaggle](https://www.kaggle.com/jessicali9530/lfw-dataset)
 - Dataset structure: images organized by person name.
 
-## Folder Structure
-```
-├── FaceID_NADRA.ipynb        # Complete Colab notebook
-├── README.md                 # Project description
-├── requirements.txt          # Optional: Python dependencies
-```
-
 ## How to Use
 1. Open the notebook in **Google Colab** or **Jupyter Notebook**.
 2. Install necessary packages: `torch`, `torchvision`, `faiss-cpu`, `kagglehub`.
@@ -37,13 +30,6 @@ This project implements a **Face ID system** capable of retrieving a person's CN
    - Evaluate model performance (**Accuracy, ROC-AUC, Top-1 retrieval accuracy**)
 4. Test with any input image to retrieve the person’s ID.
 
-## Requirements
-- Python 3.x
-- PyTorch
-- torchvision
-- FAISS
-- kagglehub
-- PIL, numpy, scikit-learn
 
 ## Notes
 - The system demonstrates **single-shot face recognition** and can scale to large datasets.
